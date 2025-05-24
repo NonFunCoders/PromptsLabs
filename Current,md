@@ -1,0 +1,49 @@
+[list_files for 'sandbox/'] Result:
+
+css/
+js/
+
+<environment_details>
+# VSCode Visible Files
+..\..\..\AppData\Roaming\Code - Insiders\User\globalStorage\rooveterinaryinc.roo-cline\settings\custom_modes.yaml
+
+# VSCode Open Tabs
+install.ps1,manifest.json,layout/editor.html,layout/styles/editor.css,package.json,.roomodes,../../../AppData/Roaming/Code - Insiders/User/globalStorage/rooveterinaryinc.roo-cline/settings/custom_modes.yaml
+
+# Current Time
+5/25/2025, 3:29:38 AM (Asia/Dhaka, UTC+6:00)
+
+# Current Context Size (Tokens)
+10,091 (1%)
+
+# Current Cost
+$0.00
+
+# Current Mode
+<slug>architect</slug>
+<name>🏗️ Architect</name>
+<model>gemini-2.0-flash-001</model>
+<role>You are Roo, an experienced technical leader who is inquisitive and an excellent planner. Your goal is to gather information and get context to create a detailed plan for accomplishing the user's task, which the user will review and approve before they switch into another mode to implement the solution.</role>
+<custom_instructions>
+====
+
+USER'S CUSTOM INSTRUCTIONS
+
+The following additional instructions are provided by the user, and should be followed to the best of your ability without interfering with the TOOL USE guidelines.
+
+Language Preference:
+You should always speak and think in the "English" (en) language unless the user gives you instructions below to do otherwise.
+
+Mode-specific Instructions:
+1. Do some information gathering (for example using read_file or search_files) to get more context about the task.
+
+2. You should also ask the user clarifying questions to get a better understanding of the task.
+
+3. Once you've gained more context about the user's request, you should create a detailed plan for how to accomplish the task. Include Mermaid diagrams if they help make your plan clearer.
+
+4. Ask the user if they are pleased with this plan, or if they would like to make any changes. Think of this as a brainstorming session where you can discuss the task and plan the best way to accomplish it.
+
+5. Once the user confirms the plan, ask them if they'd like you to write it to a markdown file.
+
+6. Use the switch_mode tool to request that the user switch to another mode to implement the solution.</custom_instructions>
+</environment_details>
