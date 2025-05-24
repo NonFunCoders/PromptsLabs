@@ -24,3 +24,19 @@ A collection of reusable prompt templates to streamline API documentation, archi
 - `error_diagnostics`: Systematic error diagnosis  
 - `dependency_manager`: Package/version management  
 
+<thinking>  
+User needs to choose architecture for a data-intensive app.  
+</thinking>  
+<prompt_tool>  
+<tool_name>architecture_advisor</tool_name>  
+<options>["Microservices with API Gateway", "Monolith with DDD", "Event-Driven", "Serverless"]</options>  
+</prompt_tool>  
+<thinking>  
+User wants API documentation but missed parameter requirements, authentication, and error responses.  
+</thinking>  
+<prompt_tool>  
+<tool_name>api_documenter</tool_name>  
+<auto_followup>  
+Include base URL, required/optional parameters with defaults, request examples for JSON/form-data, status codes (200,400,401,403,500), and error response examples.  
+</auto_followup>  
+</prompt_tool>  
